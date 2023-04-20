@@ -3,7 +3,6 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Suno",
         "Hi",
         "Ok",
         "Hey",
@@ -17,7 +16,6 @@
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
-        
       ]
     },
     {
@@ -41,10 +39,7 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
     },
     {
       "tag": "payments",
@@ -72,6 +67,43 @@
       ]
     },
     {
+      "tag": "coffee_type",
+      "patterns": [
+        "What types of coffee do you offer?",
+        "Can you recommend a type of coffee?",
+        "What is your most popular coffee?",
+        "What is your strongest coffee?",
+        "Do you have decaf coffee?",
+        "Do you offer flavored coffee?"
+      ],
+      "responses": [
+        "We offer a variety of coffee types, including espresso, cappuccino, latte, americano, and more.",
+        "Our most popular coffee is our house blend, but I can recommend a coffee based on your preferences.",
+        "If you're looking for a strong coffee, our espresso is a great choice.",
+        "Yes, we offer decaf coffee as well.",
+        "We have a variety of flavored coffee options, such as vanilla, hazelnut, and caramel. Would you like to try one?"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "Can I order a coffee?",
+        "I'd like to order a coffee",
+        "What can I order?",
+        "Can I get a latte?",
+        "Can I have a cappuccino?",
+        "I want an americano"
+      ],
+      "responses": [
+        "Absolutely! What type of coffee would you like to order?",
+        "Sure thing! What can I get started for you?",
+        "Of course! Would you like a specific type of coffee, or would you like me to recommend one?",
+        "Certainly! One latte coming up!",
+        "Of course, I'll make you a delicious cappuccino right now!",
+        "Coming right up! Would you like a single or double shot of espresso in your americano?"
+      ]
+    },
+    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
@@ -88,7 +120,6 @@
         "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
         "What did the buffalo say when his son left for college? Bison.",
         "o what if I don't know what 'Armageddon' means? It's not the end of the world."
-
       ]
     }
   ]

@@ -40,7 +40,7 @@ while True:
     output = model(X)
     _, predicted = torch.max(output, dim=1)
 
-    tag = tags[predicted.item()]
+    tag = tags[predicted.item()] #predicted_tag, list
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
@@ -50,3 +50,26 @@ while True:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
         print(f"{bot_name}: I do not understand...")
+
+    """
+    X_test = ['hello', 'how long delivery', 'joke', ...]
+    y_test = ['greeting', 'delivery', 'funny', ...] //y_true
+
+    y_pred = model(X_test)
+    y_pred = ['greeting', 'greeting', 'funny', ...]
+
+    from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+    cm = confusion_matrix(y_true, y_pred, labels=['greeting', 'funny', ...all the tags])
+
+    [7 * 7] -> matrix
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm,display_labels=tags)
+    disp.plot()
+    plt.show()
+
+
+    Classification problem metrics-
+    Accuracy, Precision, Recall, F1 Score
+    https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd
+
+    
+    """
