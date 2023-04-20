@@ -9,13 +9,24 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "What's up",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
       ],
       "responses": [
         "Hey, How are you?",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Hello, welcome to our coffee shop!",
+        "Hi there, how can I help you?",
+        "Hi, what would you like to order?",
+        "What's up, would you like to try our new blend?",
+        "Good morning! How can I assist you today?",
+        "Good afternoon! What can I get for you?",
+        "Good evening! What can I make for you?"
       ]
     },
     {
@@ -47,11 +58,21 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "How much is it?",
+        "What are your prices?",
+        "Do you accept credit cards?",
+        "What's your payment policy?",
+        "How can I pay?"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, and Paypal",
+        "Our prices vary depending on the drink, but our average price is 33 Rupees.",
+        "We accept all major credit cards and cash.",
+        "Our payment policy is payment upon ordering.",
+        "You can pay with cash or credit card at our counter.",
+        "We also accept mobile payments through apps like Apple Pay or Google Pay."
       ]
     },
     {
@@ -59,7 +80,10 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "Do you offer delivery?",
+        "What's your delivery policy?",
+        "Can I get my order delivered?"
       ],
       "responses": [
         "Delivery time changes with distance you live from our shop.",
